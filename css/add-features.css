@@ -1,0 +1,130 @@
+
+            /* scrollbar degins change css start */
+            body::-webkit-scrollbar {
+                width: 10px;
+            }
+            body::-webkit-scrollbar-track {
+                background: #666666d5 !important;
+            }
+            body::-webkit-scrollbar-thumb {
+                background: #fad415;
+            }
+            body::-webkit-scrollbar-thumb:hover {
+                background: #fad415a8;
+            }
+            /* scrollbar degins change css end */
+
+
+            /* <!-- TOP BRANDS START --> */
+        
+            .top_brands {
+                display: flex;
+                align-items: center;
+            }
+            .marquee {
+                overflow-x: clip;
+                white-space: nowrap;
+                position: relative;
+                width: 80%;
+                margin: auto;
+            }
+
+            .marquee-inner {
+                display: flex;
+                align-items: center;
+                gap: 2vw;
+                padding: 12vh 0;
+                will-change: transform;
+            }
+
+            .marquee-inner img {
+                height: 100%;
+                transition: transform 0.5s;
+                flex-shrink: 0;
+                width: 10vw;
+                border-radius: 2rem;
+            }
+
+            .marquee-inner img:hover {
+                transform: scale(1.03);
+            }
+            @media(max-width:425px){
+                .marquee-inner img{
+                    width: 35vw;
+                }
+                .feature-container {
+                 min-height: 662px;
+                }
+            }
+    
+            /* feature start */
+            .feature-container {
+                /* feature-container heights */
+                min-height: 750px;
+                /* background-color: rgba(57, 32, 80, 0.705); */
+                padding: 10px;
+                overflow: hidden;
+            }
+
+            .features {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            /* actives class start */
+            .feature-active {
+                background-color: #fad315;
+                color: white;
+                transform: scale(1.1);
+                transition: all .3s ease;
+            }
+            .feature-container-active {
+                z-index: 1;
+            }
+            /* actives class end */
+            .clicent-reviews{
+                background-color: rgba(0, 0, 0, 0.849);
+                color: white;
+                padding: 30px 10px;
+            }
+            .clicent-reviews .container .icon{
+                width: 75px;
+                height: 75px;
+                margin: auto;
+                padding: 10px;
+            }
+            .clicent-reviews .container .icon img{
+                width: 100%;
+                height: 100%;
+            }
+            .icon-content .icon-number,.icon-content .icon-text{
+                color: white;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            .icon-content .icon-number{
+                font-size: 22px;
+                padding: 5px 0px;
+                font-weight: bold;
+                font-family: 'Poppins', sans-serif !important;
+        
+            }
+            .icon-content .icon-text{
+                font-size: 20px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif !important;
+               
+        
+            }
+            .icon-number span{
+                color: #f7d217;
+            }
+            
+
+            /* feature css end */
+
+        
