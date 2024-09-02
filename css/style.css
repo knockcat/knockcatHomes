@@ -85,7 +85,7 @@ font-family: 'Poppins', sans-serif;
 .col-10,
 .col-11,
 .col-12,
-.col-2,
+.col-4,
 .col-3,
 .col-4,
 .col-5,
@@ -4472,20 +4472,20 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   left: auto;
   right: 100%; }
 
-.ltn__main-menu li > ul.ltn__sub-menu-col-2,
-.ltn__main-menu .sub-menu.ltn__sub-menu-col-2,
+.ltn__main-menu li > ul.ltn__sub-menu-col-4,
+.ltn__main-menu .sub-menu.ltn__sub-menu-col-4,
 .ltn__main-menu li > ul.ltn__sub-menu-col-3,
 .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 {
   width: 510px; }
-  .ltn__main-menu li > ul.ltn__sub-menu-col-2 > li,
-  .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 > li,
+  .ltn__main-menu li > ul.ltn__sub-menu-col-4 > li,
+  .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 > li,
   .ltn__main-menu li > ul.ltn__sub-menu-col-3 > li,
   .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 > li {
     width: 50%;
     float: left;
     padding: 12px 20px 12px 25px; }
-    .ltn__main-menu li > ul.ltn__sub-menu-col-2 > li > a,
-    .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 > li > a,
+    .ltn__main-menu li > ul.ltn__sub-menu-col-4 > li > a,
+    .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 > li > a,
     .ltn__main-menu li > ul.ltn__sub-menu-col-3 > li > a,
     .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 > li > a {
       padding: 12px 20px 12px 20px;
@@ -4494,8 +4494,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       display: block;
       font-weight: 600;
       background-color: var(--section-bg-1); }
-  .ltn__main-menu li > ul.ltn__sub-menu-col-2 .sub-menu-child,
-  .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 .sub-menu-child,
+  .ltn__main-menu li > ul.ltn__sub-menu-col-4 .sub-menu-child,
+  .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 .sub-menu-child,
   .ltn__main-menu li > ul.ltn__sub-menu-col-3 .sub-menu-child,
   .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 .sub-menu-child {
     position: inherit;
@@ -4506,8 +4506,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     box-shadow: none;
     border: none;
     z-index: inherit; }
-    .ltn__main-menu li > ul.ltn__sub-menu-col-2 .sub-menu-child li,
-    .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 .sub-menu-child li,
+    .ltn__main-menu li > ul.ltn__sub-menu-col-4 .sub-menu-child li,
+    .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 .sub-menu-child li,
     .ltn__main-menu li > ul.ltn__sub-menu-col-3 .sub-menu-child li,
     .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 .sub-menu-child li {
       padding: 12px 20px 12px 20px;
@@ -4515,8 +4515,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
       position: relative; }
-      .ltn__main-menu li > ul.ltn__sub-menu-col-2 .sub-menu-child li img,
-      .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 .sub-menu-child li img,
+      .ltn__main-menu li > ul.ltn__sub-menu-col-4 .sub-menu-child li img,
+      .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 .sub-menu-child li img,
       .ltn__main-menu li > ul.ltn__sub-menu-col-3 .sub-menu-child li img,
       .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 .sub-menu-child li img {
         position: absolute;
@@ -4532,8 +4532,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         -webkit-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
-      .ltn__main-menu li > ul.ltn__sub-menu-col-2 .sub-menu-child li:hover img,
-      .ltn__main-menu .sub-menu.ltn__sub-menu-col-2 .sub-menu-child li:hover img,
+      .ltn__main-menu li > ul.ltn__sub-menu-col-4 .sub-menu-child li:hover img,
+      .ltn__main-menu .sub-menu.ltn__sub-menu-col-4 .sub-menu-child li:hover img,
       .ltn__main-menu li > ul.ltn__sub-menu-col-3 .sub-menu-child li:hover img,
       .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 .sub-menu-child li:hover img {
         bottom: -10px;
@@ -4547,8 +4547,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .ltn__main-menu .sub-menu.ltn__sub-menu-col-3 > li {
     width: 33.33%; }
 
-.ltn__main-menu li:hover > ul.ltn__sub-menu-col-2 .sub-menu-child,
-.ltn__main-menu li:hover > .sub-menu.ltn__sub-menu-col-2 .sub-menu-child {
+.ltn__main-menu li:hover > ul.ltn__sub-menu-col-4 .sub-menu-child,
+.ltn__main-menu li:hover > .sub-menu.ltn__sub-menu-col-4 .sub-menu-child {
   opacity: 1;
   visibility: visible; }
 
