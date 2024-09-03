@@ -71,6 +71,12 @@ font-family: 'Poppins', sans-serif;
 /* ====================================================
     Gutter Code 
 ==================================================== */
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+
 .container,
 .container-fluid {
   padding-right: 15px;
@@ -214,166 +220,43 @@ font-family: 'Poppins', sans-serif;
     gap: 20px; /* Adjust the gap between items */
 }
 
+/* For larger devices */
 @media (max-width: 992px) {
-    .ltn__product-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .marquee-inner img{
+  .ltn__product-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .marquee-inner img {
       width: 35vw;
   }
-    .feature-container {
-    min-height: 180vw;
-    }
+  .feature-container {
+      min-height: 180vw;
+  }
 }
 
-@media (max-width: 956px) {
-    
-    .feature-container {
-    min-height: 185vw;
-    }
-}
-@media (max-width: 920px) {
-    
-    .feature-container {
-    min-height: 195vw;
-    }
-}
-@media (max-width: 880px) {
-    
-    .feature-container {
-    min-height: 205vw;
-    }
-}
-@media (max-width: 830px) {
-    
-    .feature-container {
-    min-height: 215vw;
-    }
-}
-@media (max-width: 795px) {
-    
-    .feature-container {
-    min-height: 225vw;
-    }
+/* For medium devices */
+@media (max-width: 767px) {
+  .ltn__product-grid {
+      grid-template-columns: 1fr;
+  }
+  .feature-container {
+      min-height: 468vw; /* Adjust to your desired height */
+  }
 }
 
-@media (max-width: 767px) {
-    .ltn__product-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-  
-    .feature-container {
-    min-height: 469vw;
-    }
+/* For devices between 992px and 620px */
+@media (max-width: 992px) and (min-width: 620px) {
+  .feature-container {
+      min-height: calc(180vw + ((992 - 620) / 372) * 399vw);
+  }
 }
-@media (max-width: 767px) {
-   
-    .feature-container {
-    min-height: 468vw;
-    }
-}
-@media (max-width: 760px) {
-   
-    .feature-container {
-    min-height: 472vw;
-    }
-}
-@media (max-width: 752px) {
-   
-    .feature-container {
-    min-height: 477vw;
-    }
-}
-@media (max-width: 752px) {
-   
-    .feature-container {
-    min-height: 477vw;
-    }
-}
-@media (max-width: 744px) {
-   
-    .feature-container {
-    min-height: 483vw;
-    }
-}
-@media (max-width: 734px) {
-   
-    .feature-container {
-    min-height: 489vw;
-    }
-}
-@media (max-width: 726px) {
-   
-    .feature-container {
-    min-height: 494vw;
-    }
-}
-@media (max-width: 718px) {
-   
-    .feature-container {
-    min-height: 500vw;
-    }
-}
-@media (max-width: 708px) {
-   
-    .feature-container {
-    min-height: 506vw;
-    }
-}
-@media (max-width: 700px) {
-   
-    .feature-container {
-    min-height: 515vw;
-    }
-}
-@media (max-width: 690px) {
-   
-    .feature-container {
-    min-height: 520vw;
-    }
-}
-@media (max-width: 680px) {
-   
-    .feature-container {
-    min-height: 528vw;
-    }
-}
-@media (max-width: 670px) {
-   
-    .feature-container {
-    min-height: 536vw;
-    }
-}
-@media (max-width: 660px) {
-   
-    .feature-container {
-    min-height: 544vw;
-    }
-}
-@media (max-width: 650px) {
-   
-    .feature-container {
-    min-height: 553vw;
-    }
-}
-@media (max-width: 640px) {
-   
-    .feature-container {
-    min-height: 561vw;
-    }
-}
-@media (max-width: 630px) {
-   
-    .feature-container {
-    min-height: 570vw;
-    }
-}
+
+/* For smaller devices */
 @media (max-width: 620px) {
-   
-    .feature-container {
-    min-height: 579vw;
-    }
+  .feature-container {
+      min-height: 579vw;
+  }
 }
+
 
 
 
