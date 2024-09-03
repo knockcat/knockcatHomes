@@ -222,114 +222,160 @@ font-family: 'Poppins', sans-serif;
       width: 35vw;
   }
     .feature-container {
-    min-height: 175vw;
+    min-height: 180vw;
     }
 }
-@media (max-width: 960px) {
-  
-  .feature-container {
-      min-height: 180vw; /* Initial min-height */
-  }
-}
-@media (max-width: 930px) {
-  
-  .feature-container {
-      min-height: 185vw; /* Initial min-height */
-  }
-}
-@media (max-width: 915px) {
-  
-  .feature-container {
-      min-height: 190vw; /* Initial min-height */
-  }
-}
-@media (max-width: 900px) {
-  
-  .feature-container {
-      min-height: 195vw; /* Initial min-height */
-  }
-}
 
-/* Increase min-height as the viewport width decreases further */ 
-
-@media (max-width: 870px) {
-  .feature-container {
-      min-height: 205vw;
-  }
+@media (max-width: 956px) {
+    
+    .feature-container {
+    min-height: 185vw;
+    }
 }
-
+@media (max-width: 920px) {
+    
+    .feature-container {
+    min-height: 195vw;
+    }
+}
+@media (max-width: 880px) {
+    
+    .feature-container {
+    min-height: 205vw;
+    }
+}
 @media (max-width: 830px) {
-  .feature-container {
-      min-height: 215vw;
-  }
+    
+    .feature-container {
+    min-height: 215vw;
+    }
 }
-@media (max-width: 800px) {
-  .feature-container {
-      min-height: 225vw;
-  }
+@media (max-width: 795px) {
+    
+    .feature-container {
+    min-height: 225vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .ltn__product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .feature-container {
+    min-height: 469vw;
+    }
 }
 @media (max-width: 767px) {
-  .feature-container {
-      min-height: 255vw;
-  }
-}
-@media (max-width: 750px) {
-  .feature-container {
-      min-height: 260vw;
-  }
-}
-@media (max-width: 740px) {
-  .feature-container {
-      min-height: 265vw;
-  }
-}
-@media (max-width: 543px) {
-  .feature-container {
-      min-height: 370vw;
-  }
-}
-@media (max-width: 520px) {
-  .feature-container {
-      min-height: 380vw;
-  }
-}
-@media (max-width: 508px) {
-  .feature-container {
-      min-height: 400vw;
-  }
-}
-@media (max-width: 499px) {
-  .feature-container {
-      min-height: 410vw;
-  }
-}
-@media (max-width: 490px) {
-  .feature-container {
-      min-height: 420vw;
-  }
-}
-@media (max-width: 480px) {
-  .feature-container {
-      min-height: 440vw;
-  }
-}
-@media (max-width: 475px) {
-  .feature-container {
-      min-height: 520vw;
-  }
-}
-@media (max-width: 455px) {
-  .feature-container {
-      min-height: 550vw;
-  }
-}
-
-
-@media (max-width: 576px) {
-    .ltn__product-grid {
-        grid-template-columns: repeat(2, 1fr);
+   
+    .feature-container {
+    min-height: 468vw;
     }
-} 
+}
+@media (max-width: 760px) {
+   
+    .feature-container {
+    min-height: 472vw;
+    }
+}
+@media (max-width: 752px) {
+   
+    .feature-container {
+    min-height: 477vw;
+    }
+}
+@media (max-width: 752px) {
+   
+    .feature-container {
+    min-height: 477vw;
+    }
+}
+@media (max-width: 744px) {
+   
+    .feature-container {
+    min-height: 483vw;
+    }
+}
+@media (max-width: 734px) {
+   
+    .feature-container {
+    min-height: 489vw;
+    }
+}
+@media (max-width: 726px) {
+   
+    .feature-container {
+    min-height: 494vw;
+    }
+}
+@media (max-width: 718px) {
+   
+    .feature-container {
+    min-height: 500vw;
+    }
+}
+@media (max-width: 708px) {
+   
+    .feature-container {
+    min-height: 506vw;
+    }
+}
+@media (max-width: 700px) {
+   
+    .feature-container {
+    min-height: 515vw;
+    }
+}
+@media (max-width: 690px) {
+   
+    .feature-container {
+    min-height: 520vw;
+    }
+}
+@media (max-width: 680px) {
+   
+    .feature-container {
+    min-height: 528vw;
+    }
+}
+@media (max-width: 670px) {
+   
+    .feature-container {
+    min-height: 536vw;
+    }
+}
+@media (max-width: 660px) {
+   
+    .feature-container {
+    min-height: 544vw;
+    }
+}
+@media (max-width: 650px) {
+   
+    .feature-container {
+    min-height: 553vw;
+    }
+}
+@media (max-width: 640px) {
+   
+    .feature-container {
+    min-height: 561vw;
+    }
+}
+@media (max-width: 630px) {
+   
+    .feature-container {
+    min-height: 570vw;
+    }
+}
+@media (max-width: 620px) {
+   
+    .feature-container {
+    min-height: 579vw;
+    }
+}
+
+
 
 @media (min-width: 992px) {
   /* Modify this based on column def */

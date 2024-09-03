@@ -46,35 +46,6 @@
 ======================================*/
 
 
-// Function to update the min-height of the feature-container based on the window width
-function updateMinHeight() {
-    const baseMinHeight = 275;
-    const increment = 2;
-    const step = 5;
-    const maxWidth = 720;
-
-
-    if (window.innerWidth <= maxWidth && window.innerWidth >= 543) {
-
-        let steps = Math.floor((maxWidth - window.innerWidth) / step) + 1;
-
-
-        let newMinHeight = baseMinHeight + (steps * increment);
-
-        document.querySelector('.feature-container').style.minHeight = `${newMinHeight}vw`;
-    } else {
-
-        document.querySelector('.feature-container').style.minHeight = '';
-    }
-}
-
-// Attach the updateMinHeight function to the resize event
-window.addEventListener('resize', updateMinHeight);
-
-// Call the function initially to set the min-height based on the current window size
-updateMinHeight();
-
-
 (function ($) {
     "use strict";
 
