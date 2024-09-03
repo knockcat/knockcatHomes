@@ -515,7 +515,7 @@
         <!-- feature-menu END -->
 
         <!-- feature-container START -->
-        <div class=" container feature-container position-relative">
+        <div class="container feature-container position-relative">
             <div class="features p-2 feature-container1 feature-container-active">
                 <!-- PRODUCT SLIDER AREA START 1-->
                 <div class="ltn__product-grid-area ltn__product-gutter p-3 plr--7">
@@ -1733,42 +1733,7 @@
             </div>
         </div>
         <!-- feature-container END -->
-        <script>
-            // feature section start
-            $(document).ready(function () {
-                $(".Residential").click(function () {
-                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
-                    $(this).addClass("feature-active");
-                    $(".features").removeClass("feature-container-active");
-                    $(".feature-container1").addClass("feature-container-active");
-                });
-                $(".Commercial").click(function () {
-                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
-                    $(this).addClass("feature-active");
-                    $(".features").removeClass("feature-container-active");
-                    $(".feature-container2").addClass("feature-container-active");
-
-                });
-                $(".SCO").click(function () {
-                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
-                    $(this).addClass("feature-active");
-                    $(".features").removeClass("feature-container-active");
-                    $(".feature-container3").addClass("feature-container-active");
-
-                });
-                $(".New-Launch").click(function () {
-                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
-                    $(this).addClass("feature-active");
-                    $(".features").removeClass("feature-container-active");
-                    $(".feature-container4").addClass("feature-container-active");
-
-                });
-            });
-            // feature section end
-        </script>
-
-        <!-- feature changes END -->
-
+        
         <!-- CATEGORY AREA START -->
         <div class="ltn__category-area section-bg-1-- ltn__primary-bg before-bg-1 bg-image bg-overlay-theme-black-5--0 p-3 d-none"
             data-bs-bg="img/bg/5.jpg">
@@ -2307,6 +2272,41 @@
         <!-- Main JS -->
         <script src="js/main.js"></script>
 
-</body>
+        <script>
+            // feature section start
+            $(document).ready(function () {
+                $(".Residential").click(function () {
+                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
+                    $(this).addClass("feature-active");
+                    $(".features").removeClass("feature-container-active");
+                    $(".feature-container1").addClass("feature-container-active");
+                });
+                $(".Commercial").click(function () {
+                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
+                    $(this).addClass("feature-active");
+                    $(".features").removeClass("feature-container-active");
+                    $(".feature-container2").addClass("feature-container-active");
 
+                });
+                $(".SCO").click(function () {
+                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
+                    $(this).addClass("feature-active");
+                    $(".features").removeClass("feature-container-active");
+                    $(".feature-container3").addClass("feature-container-active");
+
+                });
+                $(".New-Launch").click(function () {
+                    $(".feature-menu .row .col-6 .p-2 ").removeClass("feature-active")
+                    $(this).addClass("feature-active");
+                    $(".features").removeClass("feature-container-active");
+                    $(".feature-container4").addClass("feature-container-active");
+
+                });
+            });
+            // feature section end
+        </script>
+
+        <!-- feature changes END -->
+
+</body>
 </html>
