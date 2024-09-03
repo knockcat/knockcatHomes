@@ -208,6 +208,129 @@ font-family: 'Poppins', sans-serif;
   padding-right: 0;
   padding-left: 0; }
 
+  .ltn__product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between items */
+}
+
+@media (max-width: 992px) {
+    .ltn__product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .marquee-inner img{
+      width: 35vw;
+  }
+    .feature-container {
+    min-height: 175vw;
+    }
+}
+@media (max-width: 960px) {
+  
+  .feature-container {
+      min-height: 180vw; /* Initial min-height */
+  }
+}
+@media (max-width: 930px) {
+  
+  .feature-container {
+      min-height: 185vw; /* Initial min-height */
+  }
+}
+@media (max-width: 915px) {
+  
+  .feature-container {
+      min-height: 190vw; /* Initial min-height */
+  }
+}
+@media (max-width: 900px) {
+  
+  .feature-container {
+      min-height: 195vw; /* Initial min-height */
+  }
+}
+
+/* Increase min-height as the viewport width decreases further */ 
+
+@media (max-width: 870px) {
+  .feature-container {
+      min-height: 205vw;
+  }
+}
+
+@media (max-width: 830px) {
+  .feature-container {
+      min-height: 215vw;
+  }
+}
+@media (max-width: 800px) {
+  .feature-container {
+      min-height: 225vw;
+  }
+}
+@media (max-width: 767px) {
+  .feature-container {
+      min-height: 255vw;
+  }
+}
+@media (max-width: 750px) {
+  .feature-container {
+      min-height: 260vw;
+  }
+}
+@media (max-width: 740px) {
+  .feature-container {
+      min-height: 265vw;
+  }
+}
+@media (max-width: 543px) {
+  .feature-container {
+      min-height: 370vw;
+  }
+}
+@media (max-width: 520px) {
+  .feature-container {
+      min-height: 380vw;
+  }
+}
+@media (max-width: 508px) {
+  .feature-container {
+      min-height: 400vw;
+  }
+}
+@media (max-width: 499px) {
+  .feature-container {
+      min-height: 410vw;
+  }
+}
+@media (max-width: 490px) {
+  .feature-container {
+      min-height: 420vw;
+  }
+}
+@media (max-width: 480px) {
+  .feature-container {
+      min-height: 440vw;
+  }
+}
+@media (max-width: 475px) {
+  .feature-container {
+      min-height: 520vw;
+  }
+}
+@media (max-width: 455px) {
+  .feature-container {
+      min-height: 550vw;
+  }
+}
+
+
+@media (max-width: 576px) {
+    .ltn__product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+
 @media (min-width: 992px) {
   /* Modify this based on column def */
   .ltn__custom-gutter {
@@ -244,8 +367,8 @@ font-family: 'Poppins', sans-serif;
     margin-left: -8px;
     margin-right: -8px; }
   .ltn__product-gutter [class*='col-'] {
-    padding-right: 8px;
-    padding-left: 8px; } }
+    padding-right: 4px;
+    padding-left: 4px; } }
 
 /* ----------------------------------------------------
     Normalize    0B2C3D

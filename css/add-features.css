@@ -48,6 +48,15 @@
             .marquee-inner img:hover {
                 transform: scale(1.03);
             }
+            
+            @media(max-width:992px){
+                .marquee-inner img{
+                    width: 35vw;
+                }
+                .feature-container {
+                 min-height: 800px;
+                }
+            }
             @media(max-width:425px){
                 .marquee-inner img{
                     width: 35vw;
@@ -60,7 +69,7 @@
             /* feature start */
             .feature-container {
                 /* feature-container heights */
-                min-height: 750px;
+                min-height: 1200px;
                 /* background-color: rgba(57, 32, 80, 0.705); */
                 padding: 10px;
                 overflow: hidden;
