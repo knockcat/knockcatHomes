@@ -374,6 +374,156 @@ font-family: 'Poppins', sans-serif;
     min-height: 579vw;
     }
 }
+@media (max-width: 612px) {
+   
+    .feature-container {
+    min-height: 587vw;
+    }
+}
+@media (max-width: 602px) {
+   
+    .feature-container {
+    min-height: 597vw;
+    }
+}
+@media (max-width: 592px) {
+   
+    .feature-container {
+    min-height: 606vw;
+    }
+}
+@media (max-width: 583px) {
+   
+    .feature-container {
+    min-height: 616vw;
+    }
+}
+@media (max-width: 576px) {
+   
+    .feature-container {
+    min-height: 650vw;
+    }
+}
+@media (max-width: 557px) {
+   
+    .feature-container {
+    min-height: 670vw;
+    }
+}
+@media (max-width: 527px) {
+   
+    .feature-container {
+    min-height: 690vw;
+    }
+}
+@media (max-width: 505px) {
+   
+    .feature-container {
+    min-height: 710vw;
+    }
+}
+@media (max-width: 477px) {
+   
+    .feature-container {
+    min-height: 720vw;
+    }
+}
+@media (max-width: 460px) {
+   
+    .feature-container {
+    min-height: 755vw;
+    }
+}
+@media (max-width: 445px) {
+   
+    .feature-container {
+    min-height: 751vw;
+    }
+}
+@media (max-width: 430px) {
+   
+    .feature-container {
+    min-height: 762vw;
+    }
+}
+@media (max-width: 422px) {
+   
+    .feature-container {
+    min-height: 790vw;
+    }
+}
+@media (max-width: 410px) {
+   
+    .feature-container {
+    min-height: 802vw;
+    }
+}
+@media (max-width: 402px) {
+   
+    .feature-container {
+    min-height: 815vw;
+    }
+}
+@media (max-width: 394px) {
+   
+    .feature-container {
+    min-height: 829vw;
+    }
+}
+@media (max-width: 387px) {
+   
+    .feature-container {
+    min-height: 843vw;
+    }
+}
+@media (max-width: 384px) {
+   
+    .feature-container {
+    min-height: 859vw;
+    }
+}
+@media (max-width: 371px) {
+   
+    .feature-container {
+    min-height: 880vw;
+    }
+}
+@media (max-width: 365px) {
+   
+    .feature-container {
+    min-height: 894vw;
+    }
+}
+@media (max-width: 359px) {
+   
+    .feature-container {
+    min-height: 908vw;
+    }
+}
+@media (max-width: 353px) {
+   
+    .feature-container {
+    min-height: 924vw;
+    }
+}
+@media (max-width: 347px) {
+   
+    .feature-container {
+    min-height: 940vw;
+    }
+}
+@media (max-width: 341px) {
+   
+    .feature-container {
+    min-height: 956vw;
+    }
+}
+@media (max-width: 336px) {
+   
+    .feature-container {
+    min-height: 971vw;
+    }
+}
 
 
 
