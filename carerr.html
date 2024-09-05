@@ -1,10 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dhoomalandbase Real Estate Company</title>
+    <title>Jobs and Openings</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,8 +31,10 @@
 
     <!-- Add your site or application content here -->
 
+
     <!-- Body main wrapper start -->
-    <div class="body-wrapper">
+
+    <div class="wrapper">
 
         <!-- HEADER AREA START (header-5) -->
         <header
@@ -104,7 +107,7 @@
                         <div class="col">
                             <div class="site-logo-wrap">
                                 <img src="img/logo (5).png" alt="Logo" style="
-    max-width: 200px;
+    max-width: 206px;
 ">
                                 <div class="get-support clearfix d-none">
                                     <div class="get-support-icon">
@@ -125,19 +128,14 @@
                                             <li><a href="/">Home</a></li>
                                             <li><a href="about.html">About us</a></li>
                                             <li><a href="service.html">Services</a></li>
-
                                             <li class="dropdown">
-                                                <a href="#" class="dropbtn">Properties</a>
+                                                <a href="properties.html" class="dropbtn">Properties</a>
                                                 <div class="dropdown-content">
                                                     <a href="featured.html">Featured</a>
-                                                    <a href="residental.html">Residential</a>
+                                                    <a href="residental.html">Residental</a>
                                                     <a href="commercial.html">Commercial</a>
-                                                    <a href="commercial.html">Office Studio</a>
-
                                                 </div>
                                             </li>
-
-
                                             <li><a href="award.html">Awards</a></li>
                                             <li><a href="carerr.html">Career</a></li>
                                             <li><a href="contact.html">Contact</a></li>
@@ -177,7 +175,7 @@
             <div class="ltn__utilize-menu-inner ltn__scrollbar">
                 <div class="ltn__utilize-menu-head">
                     <img src="img/logo (5).png" alt="Logo" style="
-    max-width: 200px;
+    max-width: 206px;
 ">
                     <button class="ltn__utilize-close">×</button>
                 </div>
@@ -188,7 +186,7 @@
                         <li><a href="/about.html">About</a></li>
                         <li><a href="/service.html">services</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropbtn">Properties</a>
+                            <a href="properties.html" class="dropbtn">Properties</a>
                             <div class="dropdown-content">
                                 <a href="featured.html">Featured</a>
                                 <a href="residental.html">Residental</a>
@@ -216,276 +214,31 @@
 
         <div class="ltn__utilize-overlay"></div>
 
-        <!-- SLIDER AREA START (slider-4) -->
-        <div class="ltn__slider-area ltn__slider-4 position-relative ltn__primary-bg fix">
-            <div
-                class="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
-
-                <!-- HTML5 VIDEO -->
-                <video autoplay muted loop id="myVideo">
-                    <source src="media/3.mp4" type="video/mp4">
-                </video>
-
-
-
-                <!-- ltn__slide-item -->
-                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-10---"
-                    data-bs-bg="img/slider/41.jpg">
-                    <div class="ltn__slide-item-inner text-center">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 align-self-center">
-                                    <div class="slide-item-info">
-                                        <div class="slide-item-info-inner ltn__slide-animation">
-                                            <h6 class="slide-sub-title white-color animated"><span><i
-                                                        class="fas fa-home"></i></span> Dhooma Landbase</h6>
-                                            <h1 class="slide-title text-uppercase white-color animated ">India's Fastest
-                                                Growing Real Estate Company</h1>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- SLIDER AREA END -->
-
-        <!-- TOP BRANDS START -->
-
-        <div class="top_brands">
-            <div class="marquee">
-                <div class="marquee-inner">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1686117157.png" alt="Image 1">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1678607947.png" alt="Image 2">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1678529601.png" alt="Image 3">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1678529524.png" alt="Image 4">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1678529576.png" alt="Image 5">
-                    <img src="https://www.eliteproinfra.com/uploads/builder/1678529611.png" alt="Image 6">
-                </div>
-            </div>
-        </div>
-        <SCRipt>
-            document.addEventListener("DOMContentLoaded", () => {
-                const marquee = document.querySelector(".marquee-inner");
-                const speed = 2; // Scrolling Speed
-                let scrollAmount = 0;
-                let isHovered = false;
-
-                // Duplicates the content
-                const marqueeContent = marquee.innerHTML;
-                marquee.innerHTML += marqueeContent;
-
-                const startScrolling = () => {
-                    if (!isHovered) {
-                        scrollAmount -= speed;
-                        if (Math.abs(scrollAmount) >= marquee.scrollWidth / 2) {
-                            scrollAmount = 0;
-                        }
-                        marquee.style.transform = `translateX(${scrollAmount}px)`;
-                    }
-                    requestAnimationFrame(startScrolling);
-                };
-
-                marquee.addEventListener("mouseover", () => {
-                    isHovered = true;
-                });
-
-                marquee.addEventListener("mouseout", () => {
-                    isHovered = false;
-                });
-
-                startScrolling();
-            });
-
-        </SCRipt>
-        <!-- TOP BRANDS END -->
-
-
-        <!-- ABOUT US AREA START -->
-        <div class="ltn__about-us-area pt-50 pb-90">
+        <!-- BREADCRUMB AREA START -->
+        <div class="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image" style="margin-bottom: 0%;"
+            data-bs-bg="img/bg/14.jpg">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                        <div class="about-us-img-wrap about-img-left">
-                            <img src="img/others/7.png" alt="About Us Image">
-                            <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
-
-                                <div class="ltn__video-img ltn__animation-pulse1">
-                                    <img src="img/about.jpg" alt="video popup bg image">
-                                    <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="/">
-                                        <i class="fa fa-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 align-self-center">
-                        <div class="about-us-info-wrap">
-                            <div class="section-title-area ltn__section-title-2--- mb-20">
-                                <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Us</h6>
-                                <h1 class="section-title">The Leading Real Estate
-                                    <span>In Gurugram.</span>
-                                </h1>
-                                <p>Gurugram, also known as Gurgaon, has emerged as one of the most prominent real estate
-                                    markets in India.</p>
-                            </div>
-                            <ul class="ltn__list-item-half clearfix">
-                                <li>
-                                    <i class="flaticon-home-2"></i>
-                                    Smart Home Design
-                                </li>
-                                <li>
-                                    <i class="flaticon-mountain"></i>
-                                    Beautiful Scene Around
-                                </li>
-                                <li>
-                                    <i class="flaticon-heart"></i>
-                                    Exceptional Lifestyle
-                                </li>
-                                <li>
-                                    <i class="flaticon-secure"></i>
-                                    Complete 24/7 Security
-                                </li>
-                            </ul>
-
-                            <div class="btn-wrapper animated">
-                                <a href="contact.html" class="theme-btn-1 btn btn-effect-1">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ABOUT US AREA END -->
-        <!-- FEATURE AREA START ( Feature - 6) -->
-        <div class="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---">
-            <div class="container">
-                <div class="row">
+                <div class="row" style="margin-bottom: 0%;">
                     <div class="col-lg-12">
-                        <div class="section-title-area ltn__section-title-2--- text-center">
-                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Services</h6>
-                            <h1 class="section-title" style="
-                    color: white;
-                ">Our Main Focus</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ltn__custom-gutter--- justify-content-center">
-                    <div class="col-lg-4 col-sm-6 col-12">
-                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
-                            <div class="ltn__feature-icon">
-                                <!-- <span><i class="flaticon-house"></i></span> -->
-                                <img src="img/icons/icon-img/21.png" alt="#">
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h3><a href="service-details.html">Buy a home</a></h3>
-                                <p>Purchasing a home is a significant milestone that involves finding a property that
-                                    suits your needs, and buying process.</p>
-                                <a class="ltn__service-btn" href="/">Find A Home <i
-                                        class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-12">
-                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
-                            <div class="ltn__feature-icon">
-                                <!-- <span><i class="flaticon-house-3"></i></span> -->
-                                <img src="img/icons/icon-img/22.png" alt="#">
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h3><a href="service-details.html">Rent a home</a></h3>
-                                <p>Renting a home offers flexibility and convenience without the long-term commitment of
-                                    homeownership.</p>
-                                <a class="ltn__service-btn" href="/">Find A Home <i
-                                        class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 col-12">
-                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
-                            <div class="ltn__feature-icon">
-                                <!-- <span><i class="flaticon-deal-1"></i></span> -->
-                                <img src="img/icons/icon-img/23.png" alt="#">
-                            </div>
-                            <div class="ltn__feature-info">
-                                <h3><a href="service-details.html">Sell a home</a></h3>
-                                <p>Selling a home involves preparing the property for sale, setting an appropriate
-                                    price, and marketing it to potential buyers. </p>
-                                <a class="ltn__service-btn" href="service-details.html">Find A Home <i
-                                        class="flaticon-right-arrow"></i></a>
+                        <div class="ltn__breadcrumb-inner">
+                            <!-- <h1 class="page-title">Award & Recognition</h1> -->
+                            <h1 style="color: rgb(238, 185, 13);">Jobs and Openings</h1>
+                            <div class="ltn__breadcrumb-list">
+                                <ul>
+                                    <li><a href="index.html"><span class="ltn__secondary-color"><i
+                                                    class="fas fa-home"></i></span> Home</a></li>
+                                    <img src="img/testimonial/career.jpeg" alt="" srcset=""
+                                        style="height: 300px; width: 100%;">
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- FEATURE AREA END -->
+        <!-- BREADCRUMB AREA END -->
 
-        <!-- ABOUT US AREA START -->
-        <div class="ltn__about-us-area pt-120 pb-60 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                        <div class="about-us-info-wrap">
-                            <div class="section-title-area ltn__section-title-2--- mb-30">
-                                <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Latest Project</h6>
-                                <h1 class="section-title">SMART WORLD ORCHARD </h1>
-                                <p>Built in Sector 61, Gurgaon Smart World is a residential development by Smart World
-                                    Developers. The project is sufficed with all world class amenities and covers 2BHK
-                                    with Study and 3BHK with Study apartments. Being close to all necessities, it has
-                                    good connectivity to the rest of the city.
 
-                                </p>
-
-                            </div>
-
-                            <ul class="">
-                                <li>SECTOR-61, GURGAON
-                                </li>
-                                <li>2, 3 & 4 BHK APARTMENTS</li>
-                                <li>STARTS AT : RS. 1.75 CR* ONWARDS
-                                </li>
-
-                            </ul>
-
-                            <ul class="ltn__list-item-2 ltn__list-item-2-before--- ltn__list-item-2-img mb-50">
-                                <li>
-                                    <a href="img/orchard/1.jpg" data-rel="lightcase:myCollection">
-                                        <img src="img/orchard/1.jpg" alt="Image">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="img/orchard/2.jpg" data-rel="lightcase:myCollection">
-                                        <img src="img/orchard/2.jpg" alt="Image">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="img/orchard/3.jpg" data-rel="lightcase:myCollection">
-                                        <img src="img/orchard/3.jpg" alt="Image">
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6 align-self-center">
-                        <div class="about-us-img-wrap about-img-right">
-                            <img src="img/orchard/orchard.jpg" alt="About Us Image">
-                        </div>
-
-                    </div>
-                    <div class="btn-wrapper animated">
-                        <a href="service.html" class="theme-btn-1 btn btn-effect-1">Our Portfolio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ABOUT US AREA END -->
-
-        <!-- feature changes start -->
 
 
         <!-- feature-menu START -->
@@ -493,24 +246,26 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Properties</h6>
-                        <h1 class="section-title">Featured Listings</h1>
+                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Employment</h6>
+                        <h1 class="section-title">Available Postings</h1>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
 
                 <div class="col-6">
-                    <div class="p-2 m-2  text-center border rounded Residential feature-active"><strong>Residential</strong></div>
+                    <div class="p-2 m-2  text-center border rounded Residential feature-active">
+                        <strong>Engineering</strong>
+                    </div>
                 </div>
                 <div class="col-6">
-                    <div class="p-2 m-2  text-center border rounded Commercial "><strong>Commercial</strong></div>
+                    <div class="p-2 m-2  text-center border rounded Commercial "><strong>Finance</strong></div>
                 </div>
                 <div class="col-6">
-                    <div class="p-2 m-2  text-center border rounded SCO"><strong>SCO</strong></div>
+                    <div class="p-2 m-2  text-center border rounded SCO"><strong>Sales</strong></div>
                 </div>
                 <div class="col-6">
-                    <div class="p-2 m-2  text-center border rounded New-Launch"><strong>New Launch</strong></div>
+                    <div class="p-2 m-2  text-center border rounded New-Launch"><strong>Other</strong></div>
                 </div>
 
             </div>
@@ -530,19 +285,18 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="m3mcapital.html"><img
-                                                    src="img/residential/godrej-zenith-banner.jpg" alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 89
-                                                                Gurugram</a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -560,37 +314,34 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹On Request </span>
+                                                <span>₹ Front-end </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Godrej Zenith</a></h2>
+                                            <h2 class="product-title"><a href="/">Front-end Developer</a></h2>
                                             <div class="product-description">
-                                                <p>Welcome to Godrej Zenith, where luxury living meets holistic
-                                                    wellbeing in the heart of Gurgaon's Sector 89. With a focus on
-                                                    premium amenities and lush green surroundings, Godrej Zenith offers
-                                                    residents a lifestyle of comfort, convenience, and wellness.</p>
+                                                <p>An experience candidate with 1-2 years of experience in Front-end Development.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                
                                 <!-- ltn__product-item -->
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/residential/puri-diplomatic-banner.jpg"
-                                                    alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se2.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green---">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 111
-                                                                Gurugram</a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -608,37 +359,34 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹3.95 Cr*</span>
+                                                <span>₹ Data Analyst </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Puri Diplomatic Residences</a></h2>
+                                            <h2 class="product-title"><a href="/">Analyst</a></h2>
                                             <div class="product-description">
-                                                <p>Situated in a highly strategic location, Puri Constructions is coming
-                                                    with a new launch of Puri Diplomatic Residences. It is a superlative
-                                                    development that falls under the niche of luxury and opulence.</p>
+                                                <p>An experience candidate with 1-2 years of experience in Data Analytics.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                
                                 <!-- ltn__product-item -->
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg"
-                                                    alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A
-                                                                Gurugram
-                                                            </a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -656,38 +404,34 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
+                                                <span>₹ Back-end </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
+                                            <h2 class="product-title"><a href="/">Back-end Developer</a></h2>
                                             <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi
-                                                    Waterfall Residencies, an enchanting Japanese-inspired residential
-                                                    enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
+                                                <p>An experience candidate with 1-2 years of experience in Back-end Development.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                
                                 <!-- ltn__product-item -->
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="m3mcapital.html"><img
-                                                    src="img/m3m/propImages/12.jpg" alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 89
-                                                                Gurugram</a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -705,39 +449,34 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹On Request </span>
+                                                <span>₹ IOS Developer </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Godrej Zenith</a></h2>
+                                            <h2 class="product-title"><a href="/">Front-end Developer</a></h2>
                                             <div class="product-description">
-                                                <p>Welcome to Godrej Zenith, where luxury living meets holistic
-                                                    wellbeing in the heart of Gurgaon's Sector 89. With a focus on
-                                                    premium amenities and lush green surroundings, Godrej Zenith offers
-                                                    residents a lifestyle of comfort, convenience, and wellness.</p>
+                                                <p>An experience candidate with 1-2 years of experience in ios Development.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
-
+                                
                                 <!-- ltn__product-item -->
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg"
-                                                    alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se2.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A
-                                                                Gurugram
-                                                            </a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -755,39 +494,34 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
+                                                <span>₹ Java </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
+                                            <h2 class="product-title"><a href="/">Java Developer</a></h2>
                                             <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi
-                                                    Waterfall Residencies, an enchanting Japanese-inspired residential
-                                                    enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
+                                                <p>An experience candidate with 1-2 years of experience in Java Development.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
-
-                                <!-- ltn__product-item -->
+                                
                                 <!-- ltn__product-item -->
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg" alt="#"></a>
+                                            <a href="/"><img
+                                                    src="img/testimonial/se.jpg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
+                                                    <li class="sale-badge bg-green">Engineering</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A Gurugram
-                                                            </a>
+                                                            <a href="/"><i class="flaticon-pin"></i> Gurugram</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -805,19 +539,18 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
+                                                <span>₹ Android </span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
+                                            <h2 class="product-title"><a href="/">Android Developer</a></h2>
                                             <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi Waterfall Residencies, an enchanting Japanese-inspired residential enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
+                                                <p>An experience candidate with 1-2 years of experience in Android Development.</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                
 
                             </div>
                         </div>
@@ -838,18 +571,18 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/orchard/orchardd.jpg" alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/finance.jpeg" alt="#"></a>
 
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Finance</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 113
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
@@ -868,14 +601,11 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹1.25 Cr*</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="m3mcapital.html">M3M CAPITAL</a></h2>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>If you are looking for a luxury residence in Gurugram, you would be
-                                                    interested in the apartments offered for sale in M3M Capital, a
-                                                    modern-style
-                                                    residential complex.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
                                             </div>
 
                                         </div>
@@ -886,19 +616,18 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-
-                                            <a href="/"><img src="img/m3m/m3m.jpg" alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/fin2.jpeg" alt="#"></a>
 
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green---">Featured</li>
+                                                    <li class="sale-badge bg-green">Finance</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-61,
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
@@ -917,15 +646,11 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹1.52 CR*</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD ORCHARD</a></h2>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>Built in Sector 61, Gurgaon Smart World is a residential development
-                                                    by Smart
-                                                    World Developers. The project is sufficed with all world class
-                                                    amenities and
-                                                    covers 2BHK.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
                                             </div>
 
                                         </div>
@@ -936,191 +661,183 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="m3mcapital.html"><img src="img/m3mcapital/m3mcapital.jpg"
-                                                    alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/finance.jpeg" alt="#"></a>
+
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Finance</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> SECTOR 57 GURGAON
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹1.31 Cr
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">M3M ATRIUM</a></h2>
-                                            <div class="product-description">
-                                                <p>M3M Atrium sector 57 is a new enterprise task Gurgaon abilities an
-                                                    in-depth
-                                                    type of centers that great meet the dreams of current businessmen.
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/product-3/3.jpg" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i>Luxury Project
-                                                                On Dwarka Expressway</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹On Request
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD</a></h2>
-                                            <div class="product-description">
-                                                <p>Smart World Apartments Upcoming New Luxury Project On Dwarka
-                                                    Expressway -
-                                                    Welcome to the modern standard of living, where every step you take
-                                                    is by a
-                                                    green backdrop.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg"
-                                                    alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A
-                                                                Gurugram
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
-                                            <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi
-                                                    Waterfall Residencies, an enchanting Japanese-inspired residential
-                                                    enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/m3m/propImages/2.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-74
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-img-gallery">
-
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹87 Lacs</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">M3M CORNER WALK </a></h2>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>Have you been searching for the new office area but not receiving the
-                                                    type of
-                                                    yours of luxurious and panoramic property?</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/fin2.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Finance</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/finance.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Finance</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/fin2.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Finance</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href=".html">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eum?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
 
                             </div>
                         </div>
@@ -1141,17 +858,17 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/product-3/3.jpg" alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/sales.jpeg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Sales</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 113
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
@@ -1170,14 +887,11 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹1.25 Cr*</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="m3mcapital.html">M3M CAPITAL</a></h2>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>If you are looking for a luxury residence in Gurugram, you would be
-                                                    interested in the apartments offered for sale in M3M Capital, a
-                                                    modern-style
-                                                    residential complex.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
                                             </div>
 
                                         </div>
@@ -1188,17 +902,17 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/orchard/orchardd.jpg" alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/sales2.jpeg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green---">Featured</li>
+                                                    <li class="sale-badge bg-green">Sales</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-61,
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
@@ -1217,15 +931,11 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹1.52 CR*</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD ORCHARD</a></h2>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>Built in Sector 61, Gurgaon Smart World is a residential development
-                                                    by Smart
-                                                    World Developers. The project is sufficed with all world class
-                                                    amenities and
-                                                    covers 2BHK.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
                                             </div>
 
                                         </div>
@@ -1236,192 +946,179 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="m3mcapital.html"><img src="img/m3mcapital/m3mcapital.jpg"
-                                                    alt="#"></a>
-
+                                            <a href="/"><img src="img/testimonial/sales.jpeg" alt="#"></a>
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Sales</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i>Luxury Project
-                                                                On Dwarka Expressway</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹On Request
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD</a></h2>
-                                            <div class="product-description">
-                                                <p>Smart World Apartments Upcoming New Luxury Project On Dwarka
-                                                    Expressway -
-                                                    Welcome to the modern standard of living, where every step you take
-                                                    is by a
-                                                    green backdrop.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/m3m/m3m.jpg" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> SECTOR 57 GURGAON
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹1.31 Cr
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">M3M ATRIUM</a></h2>
-                                            <div class="product-description">
-                                                <p>M3M Atrium sector 57 is a new enterprise task Gurgaon abilities an
-                                                    in-depth
-                                                    type of centers that great meet the dreams of current businessmen.
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg"
-                                                    alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A
-                                                                Gurugram
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
-                                            <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi
-                                                    Waterfall Residencies, an enchanting Japanese-inspired residential
-                                                    enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/m3m/propImages/2.png" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-74
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-img-gallery">
-
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹87 Lacs</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">M3M CORNER WALK </a></h2>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>Have you been searching for the new office area but not receiving the
-                                                    type of
-                                                    yours of luxurious and panoramic property?</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/sales2.jpeg" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Sales</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/sales.jpeg" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Sales</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/sales2.jpeg" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Sales</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quibusdam officiis voluptate eius iusto?</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
 
                             </div>
                         </div>
@@ -1442,18 +1139,18 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="/"><img src="img/m3m/propImages/2.png" alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/job.jpeg" alt="#"></a>
 
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Other</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 113
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
@@ -1472,212 +1169,11 @@
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹1.25 Cr*</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="m3mcapital.html">M3M CAPITAL</a></h2>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>If you are looking for a luxury residence in Gurugram, you would be
-                                                    interested in the apartments offered for sale in M3M Capital, a
-                                                    modern-style
-                                                    residential complex.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/m3m/m3m.jpg" alt="#"></a>
-
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green---">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-61,
-                                                                Gurgaon</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹1.52 CR*</span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD ORCHARD</a></h2>
-                                            <div class="product-description">
-                                                <p>Built in Sector 61, Gurgaon Smart World is a residential development
-                                                    by Smart
-                                                    World Developers. The project is sufficed with all world class
-                                                    amenities and
-                                                    covers 2BHK.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/residential/krisumiwaterfall-banner.jpg"
-                                                    alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Residential</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector 36 A
-                                                                Gurugram
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹2.30 Cr*
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">Krisumi Waterfall Residences</a></h2>
-                                            <div class="product-description">
-                                                <p>Krisumi Corporation is gearing up for the grand unveiling of Krisumi
-                                                    Waterfall Residencies, an enchanting Japanese-inspired residential
-                                                    enclave nestled in Gurgaon, poised to captivate your senses.
-                                                </p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/product-3/3.jpg" alt="#"></a>
-
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i>Luxury Project
-                                                                On Dwarka Expressway</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹On Request
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">SMART WORLD</a></h2>
-                                            <div class="product-description">
-                                                <p>Smart World Apartments Upcoming New Luxury Project On Dwarka
-                                                    Expressway -
-                                                    Welcome to the modern standard of living, where every step you take
-                                                    is by a
-                                                    green backdrop.</p>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- ltn__product-item -->
-                                <div class="col-lg-12">
-                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
-                                        <div class="product-img">
-                                            <a href="/"><img src="img/orchard/orchardd.jpg" alt="#"></a>
-                                            <div class="product-badge">
-                                                <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
-                                                </ul>
-                                            </div>
-                                            <div class="product-img-location-gallery">
-                                                <div class="product-img-location">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> SECTOR 57 GURGAON
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="product-img-gallery">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="product-info">
-                                            <div class="product-price">
-                                                <span>₹1.31 Cr
-                                                </span>
-                                            </div>
-                                            <h2 class="product-title"><a href="/">M3M ATRIUM</a></h2>
-                                            <div class="product-description">
-                                                <p>M3M Atrium sector 57 is a new enterprise task Gurgaon abilities an
-                                                    in-depth
-                                                    type of centers that great meet the dreams of current businessmen.
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
                                                 </p>
                                             </div>
 
@@ -1689,43 +1185,233 @@
                                 <div class="col-lg-12">
                                     <div class="ltn__product-item ltn__product-item-4 text-center---">
                                         <div class="product-img">
-                                            <a href="m3mcapital.html"><img src="img/m3mcapital/m3mcapital.jpg"
-                                                    alt="#"></a>
+                                            <a href="/"><img src="img/testimonial/job2.jpeg" alt="#"></a>
+
                                             <div class="product-badge">
                                                 <ul>
-                                                    <li class="sale-badge bg-green">Featured</li>
+                                                    <li class="sale-badge bg-green">Other</li>
                                                 </ul>
                                             </div>
                                             <div class="product-img-location-gallery">
                                                 <div class="product-img-location">
                                                     <ul>
                                                         <li>
-                                                            <a href="/"><i class="flaticon-pin"></i> Sector-74
+                                                            <a href="/"><i class="flaticon-pin"></i> 
                                                                 Gurgaon</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="product-img-gallery">
-
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="product-info">
                                             <div class="product-price">
-                                                <span>₹87 Lacs</span>
+                                                <span>Lorem, ipsum.</span>
                                             </div>
-                                            <h2 class="product-title"><a href="/">M3M CORNER WALK </a></h2>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
                                             <div class="product-description">
-                                                <p>Have you been searching for the new office area but not receiving the
-                                                    type of
-                                                    yours of luxurious and panoramic property?</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
+                                                </p>
                                             </div>
 
                                         </div>
 
                                     </div>
                                 </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/job.jpeg" alt="#"></a>
 
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Other</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/job2.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Other</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/job.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Other</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-4 text-center---">
+                                        <div class="product-img">
+                                            <a href="/"><img src="img/testimonial/job2.jpeg" alt="#"></a>
+
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge bg-green">Other</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-img-location-gallery">
+                                                <div class="product-img-location">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="flaticon-pin"></i> 
+                                                                Gurgaon</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="product-img-gallery">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-camera"></i> 4</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/"><i class="fas fa-film"></i> 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-price">
+                                                <span>Lorem, ipsum.</span>
+                                            </div>
+                                            <h2 class="product-title"><a href="/">Lorem, ipsum.</a></h2>
+                                            <div class="product-description">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quis molestias nihil iusto laudantium!
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
 
@@ -1735,6 +1421,8 @@
 
             </div>
         </div>
+
+
         <!-- feature-container END -->
         <script>
             // feature section start
@@ -1770,391 +1458,6 @@
             // feature section end
         </script>
 
-        <!-- feature changes END -->
-
-        <!-- CATEGORY AREA START -->
-        <div class="ltn__category-area section-bg-1-- ltn__primary-bg before-bg-1 bg-image bg-overlay-theme-black-5--0 p-3 d-none"
-            data-bs-bg="img/bg/5.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title-area ltn__section-title-2 text-center">
-                            <h1 class="section-title white-color">Top Categories</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ltn__category-slider-active slick-arrow-1">
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="ltn__category-item ltn__category-item-4 text-center">
-                            <div class="ltn__category-item-img">
-                                <a href="shop.html">
-                                    <i class="flaticon-car"></i>
-                                </a>
-                            </div>
-                            <div class="ltn__category-item-name">
-                                <h4><a href="shop.html">Parking Space</a></h4>
-                            </div>
-                            <div class="ltn__category-item-btn">
-                                <a href="shop.html"><i class="flaticon-right-arrow"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- CATEGORY AREA END -->
-
-        <!-- CATEGORY AREA START -->
-        <div class="ltn__category-area ltn__product-gutter section-bg-1--- p-3 position-relative"
-            style="background-image: url(/img/dhoomalandbasebgimage.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title-area ltn__section-title-2--- text-center">
-                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Aminities</h6>
-                            <h1 class="section-title" style="
-                        color: white;
-                    ">Building Aminities</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ltn__category-slider-active--- slick-arrow-1 justify-content-center">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-car"></i></span>
-                                <span class="category-title">Parking Space</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-swimming"></i></span>
-                                <span class="category-title">Swimming Pool</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-secure-shield"></i></span>
-                                <span class="category-title">Private Security</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-stethoscope"></i></span>
-                                <span class="category-title">Medical Center</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-book"></i></span>
-                                <span class="category-title">Library Area</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-bed-1"></i></span>
-                                <span class="category-title">King Size Beds</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-home-2"></i></span>
-                                <span class="category-title">Smart Homes</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                        <div class="ltn__category-item ltn__category-item-5 text-center">
-                            <a href="shop.html">
-                                <span class="category-icon"><i class="flaticon-slider"></i></span>
-                                <span class="category-title">Kid’s Playland</span>
-                                <span class="category-btn"><i class="flaticon-right-arrow"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- CATEGORY AREA END -->
-
-
-        <!-- /clicent-reviews start -->
-
-
-        <div class="clicent-reviews">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 my-5 my-md-0">
-                        <div class="icon">
-                            <img src="./img/clicent-review/happy-customer.png" alt="happy-customer">
-                        </div>
-                        <div class="icon-content">
-                            <div class="icon-number">25500<span>+</span></div>
-                            <div class="icon-text">Happy Customer</div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-5  my-md-0">
-                        <div class="icon">
-                            <img src="./img/clicent-review/area-sold.png" alt="area sold">
-                        </div>
-                        <div class="icon-content">
-                            <div class="icon-number">45 Million <span>Sq.Ft.</span></div>
-                            <div class="icon-text">Area Sold</div>
-                        </div>
-                    </div>
-                    <div class="col-md-3  my-5 my-md-0">
-                        <div class="icon">
-                            <img src="./img/clicent-review/Professionals.png" alt="Professionals">
-                        </div>
-                        <div class="icon-content">
-                            <div class="icon-number">500<span>+</span></div>
-                            <div class="icon-text">Professionals</div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-5 my-md-0 ">
-                        <div class="icon">
-                            <img src="./img/clicent-review/Associates.png" alt="Associates">
-                        </div>
-                        <div class="icon-content">
-                            <div class="icon-number">750<span>+</span></div>
-                            <div class="icon-text">Associates</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /clicent-reviews start -->
-
-
-
-
-        <!-- TESTIMONIAL AREA START (testimonial-7) -->
-        <div class="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-70" data-bs-bg="img/bg/20.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title-area ltn__section-title-2--- text-center">
-                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Testimonial</h6>
-                            <h1 class="section-title">Clients Feedback</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row ltn__testimonial-slider-5-active slick-arrow-1">
-                    <div class="col-lg-4">
-                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                            <div class="ltn__testimoni-info">
-                                <p><i class="flaticon-left-quote-1"></i>
-                                    Dhooma Landbase helped me find my dream home with ease and professionalism. Highly
-                                    recommended for their knowledge and responsiveness.</p>
-                                <div class="ltn__testimoni-info-inner">
-                                    <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/1.jpg" alt="#">
-                                    </div>
-                                    <div class="ltn__testimoni-name-designation">
-                                        <h5>Tarun</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                            <div class="ltn__testimoni-info">
-                                <p><i class="flaticon-left-quote-1"></i>
-                                    Exceptional service from Dhooma Landbase from start to finish. They perfectly
-                                    matched properties to my needs and provided excellent guidance.
-
-                                </p>
-                                <div class="ltn__testimoni-info-inner">
-                                    <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/2.jpg" alt="#">
-                                    </div>
-                                    <div class="ltn__testimoni-name-designation">
-                                        <h5>Garurr</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                            <div class="ltn__testimoni-info">
-                                <p><i class="flaticon-left-quote-1"></i>
-                                    A positive experience with professional and dedicated service from Dhooma Landbase.
-                                    Minor delays were handled with care and diligence.
-
-                                </p>
-                                <div class="ltn__testimoni-info-inner">
-                                    <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/3.jpg" alt="#">
-                                    </div>
-                                    <div class="ltn__testimoni-name-designation">
-                                        <h5>suresh singh</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
-                            <div class="ltn__testimoni-info">
-                                <p><i class="flaticon-left-quote-1"></i>
-                                    Top-notch service from a friendly and efficient team. Dhooma Landbase is committed
-                                    to excellence and customer satisfaction.
-
-                                </p>
-                                <div class="ltn__testimoni-info-inner">
-                                    <div class="ltn__testimoni-img">
-                                        <img src="img/testimonial/4.jpg" alt="#">
-                                    </div>
-                                    <div class="ltn__testimoni-name-designation">
-                                        <h5>Rajendra</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--  -->
-                </div>
-            </div>
-        </div>
-        <!-- TESTIMONIAL AREA END -->
-
-        <!-- BRAND LOGO AREA START -->
-        <div class="ltn__brand-logo-area ltn__brand-logo-1 section-bg-1 pt-290 pb-110 plr--9 d-none">
-            <div class="container-fluid">
-                <div class="row ltn__brand-logo-active">
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/1.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/2.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/3.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/4.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/5.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="ltn__brand-logo-item">
-                            <img src="img/brand-logo/3.png" alt="Brand Logo">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- BRAND LOGO AREA END -->
-
         <!-- CALL TO ACTION START (call-to-action-6) -->
         <div class="ltn__call-to-action-area call-to-action-6 before-bg-bottom" data-bs-bg="img/1.jpg--">
             <div class="container">
@@ -2167,7 +1470,7 @@
                                 <p>We can help you realize your dream of a new home</p>
                             </div>
                             <div class="btn-wrapper">
-                                <a class="btn btn-effect-3 btn-white" href="contact.html">Explore Your Dream Homes <i
+                                <a class="btn btn-effect-3 btn-white" href="contact.html">Explore Properties <i
                                         class="icon-next"></i></a>
                             </div>
                         </div>
@@ -2186,11 +1489,12 @@
                             <div class="footer-widget footer-about-widget">
                                 <div class="footer-logo">
                                     <img src="img/logo (5).png" alt="Logo" style="
-    max-width: 300px;
+    max-width: 206px;
 ">
                                 </div>
                                 <p>Dhooma Landbase is a premier real estate company dedicated to helping clients buy,
-                                    sell, and rent properties with ease and confidence.</p>
+                                    sell,
+                                    and rent properties with ease and confidence.</p>
 
                                 <div class="ltn__social-media mt-20">
                                     <ul>
@@ -2218,7 +1522,8 @@
                                             </div>
                                             <div class="footer-address-info">
                                                 <p>GF-02 & GF-10, Imperia Mindspace Sector-62, Golf Course Extension
-                                                    Road, Gurgaon.</p>
+                                                    Road,
+                                                    Gurgaon.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -2292,23 +1597,226 @@
         </footer>
         <!-- FOOTER AREA END -->
 
-        <!-- Body main wrapper end -->
+        <!-- MODAL AREA START (Quick View Modal) -->
+        <div class="ltn__modal-area ltn__quick-view-modal-area">
+            <div class="modal fade" id="quick_view_modal" tabindex="-1">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                <!-- <i class="fas fa-times"></i> -->
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <div class="modal-product-img">
+                                                <img src="img/product/4.png" alt="#">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <div class="modal-product-info">
+                                                <div class="product-ratting">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                        <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
+                                                    </ul>
+                                                </div>
+                                                <h3>3 Rooms Manhattan</h3>
+                                                <div class="product-price">
+                                                    <span>$149.00</span>
+                                                    <del>$165.00</del>
+                                                </div>
+                                                <div class="modal-product-meta ltn__product-details-menu-1">
+                                                    <ul>
+                                                        <li>
+                                                            <strong>Categories:</strong>
+                                                            <span>
+                                                                <a href="#">Parts</a>
+                                                                <a href="#">Car</a>
+                                                                <a href="#">Seat</a>
+                                                                <a href="#">Cover</a>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="ltn__product-details-menu-2">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="cart-plus-minus">
+                                                                <input type="text" value="02" name="qtybutton"
+                                                                    class="cart-plus-minus-box">
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="theme-btn-1 btn btn-effect-1"
+                                                                title="Add to Cart" data-bs-toggle="modal"
+                                                                data-bs-target="#add_to_cart_modal">
+                                                                <i class="fas fa-shopping-cart"></i>
+                                                                <span>ADD TO CART</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="ltn__product-details-menu-3">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#" class="" title="Wishlist" data-bs-toggle="modal"
+                                                                data-bs-target="#liton_wishlist_modal">
+                                                                <i class="far fa-heart"></i>
+                                                                <span>Add to Wishlist</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="" title="Compare" data-bs-toggle="modal"
+                                                                data-bs-target="#quick_view_modal">
+                                                                <i class="fas fa-exchange-alt"></i>
+                                                                <span>Compare</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <hr>
+                                                <div class="ltn__social-media">
+                                                    <ul>
+                                                        <li>Share:</li>
+                                                        <li><a href="#" title="Facebook"><i
+                                                                    class="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href="#" title="Twitter"><i
+                                                                    class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li><a href="#" title="Linkedin"><i
+                                                                    class="fab fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li><a href="#" title="Instagram"><i
+                                                                    class="fab fa-instagram"></i></a></li>
 
-        <!-- preloader area start -->
-        <div class="preloader d-none" id="preloader">
-            <div class="preloader-inner">
-                <div class="spinner">
-                    <div class="dot1"></div>
-                    <div class="dot2"></div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- preloader area end -->
+        <!-- MODAL AREA END -->
 
-        <!-- All JS Plugins -->
-        <script src="js/plugins.js"></script>
-        <!-- Main JS -->
-        <script src="js/main.js"></script>
+        <!-- MODAL AREA START (Add To Cart Modal) -->
+        <div class="ltn__modal-area ltn__add-to-cart-modal-area">
+            <div class="modal fade" id="add_to_cart_modal" tabindex="-1">
+                <div class="modal-dialog modal-md" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="modal-product-img">
+                                                <img src="img/product/1.png" alt="#">
+                                            </div>
+                                            <div class="modal-product-info">
+                                                <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                                <p class="added-cart"><i class="fa fa-check-circle"></i> Successfully
+                                                    added
+                                                    to your Cart</p>
+                                                <div class="btn-wrapper">
+                                                    <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View
+                                                        Cart</a>
+                                                    <a href="checkout.html"
+                                                        class="theme-btn-2 btn btn-effect-2">Checkout</a>
+                                                </div>
+                                            </div>
+                                            <!-- additional-info -->
+                                            <div class="additional-info d-none">
+                                                <p>We want to give you <b>10% discount</b> for your first order, <br>
+                                                    Use
+                                                    discount code at checkout</p>
+                                                <div class="payment-method">
+                                                    <img src="img/icons/payment.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL AREA END -->
+
+        <!-- MODAL AREA START (Wishlist Modal) -->
+        <div class="ltn__modal-area ltn__add-to-cart-modal-area">
+            <div class="modal fade" id="liton_wishlist_modal" tabindex="-1">
+                <div class="modal-dialog modal-md" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="modal-product-img">
+                                                <img src="img/product/7.png" alt="#">
+                                            </div>
+                                            <div class="modal-product-info">
+                                                <h5><a href="product-details.html">3 Rooms Manhattan</a></h5>
+                                                <p class="added-cart"><i class="fa fa-check-circle"></i> Successfully
+                                                    added
+                                                    to your Wishlist</p>
+                                                <div class="btn-wrapper">
+                                                    <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View
+                                                        Wishlist</a>
+                                                </div>
+                                            </div>
+                                            <!-- additional-info -->
+                                            <div class="additional-info d-none">
+                                                <p>We want to give you <b>10% discount</b> for your first order, <br>
+                                                    Use
+                                                    discount code at checkout</p>
+                                                <div class="payment-method">
+                                                    <img src="img/icons/payment.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL AREA END -->
+
+    </div>
+    <!-- Body main wrapper end -->
+
+    <!-- All JS Plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
 
 </body>
 
