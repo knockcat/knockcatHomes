@@ -153,6 +153,10 @@ body {
 
     }
 
+    .para-container{
+        margin: 2px;
+    }
+
     .centered{
         left: 30%;
         top: 50%;

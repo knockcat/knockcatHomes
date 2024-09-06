@@ -262,7 +262,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__form-box contact-form-box box-shadow white-bg">
                         <h4 class="title-2">Get A Quote</h4>
-                        <form id="contact-form" action="form.php" method="post">
+                        <form action="https://formspree.io/f/xvgpywyl" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-item input-item-name ltn__custom-icon">
@@ -288,9 +288,9 @@
                                     <div class="input-item">
                                         <select class="nice-select" name="service_type" required>
                                             <option value="">Select Service Type</option>
-                                            <option>Buy</option>
-                                            <option>Sell</option>
-                                            <option>Rent</option>
+                                            <option value="Buy">Buy</option>
+                                            <option value="Sell">Sell</option>
+                                            <option value="Rent">Rent</option>
                                         </select>
                                     </div>
                                 </div>
@@ -298,9 +298,8 @@
                             <div class="input-item input-item-textarea ltn__custom-icon">
                                 <textarea name="message" placeholder="Enter message" required></textarea>
                             </div>
-                            <p><label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label></p>
                             <div class="btn-wrapper mt-0">
-                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">get a free service</button>
+                                <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Get a Free Service</button>
                             </div>
                             <p class="form-messege mb-0 mt-20"></p>
                         </form>
