@@ -211,13 +211,15 @@ font-family: 'Poppins', sans-serif;
   .ltn__product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Adjust the gap between items */
+    gap: 20px; /*Adjust the gap between items*/
+    
 }
 
 @media (max-width: 992px) {
     .ltn__product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
     .marquee-inner img{
       width: 35vw;
   }
